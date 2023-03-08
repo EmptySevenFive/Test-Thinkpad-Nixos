@@ -66,7 +66,7 @@ in
     };
   };
 
-  home-manager.users.will = { pkgs, lib, ... }: {
+  home-manager.users.student = { pkgs, lib, ... }: {
     home.stateVersion = "22.11";
 
     nixpkgs.overlays = [ (import emacs-overlay) ];
