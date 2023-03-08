@@ -7,7 +7,7 @@ let
     "https://github.com/nix-community/emacs-overlay/archive/4a14e8f79e91636cdfc4cecc3f12cdc4cfe57a60.tar.gz";
 in
 {
-  nix = import ./nix.nix;
+  # nix = import ./nix.nix;
 
   system.stateVersion = "22.11";
 
@@ -19,7 +19,7 @@ in
 
   networking.hostName = "will-lap";
 
-  time.timeZone = "Australia/Melbourne";
+  time.timeZone = "Europe/London";
   i18n.defaultLocale = "en_AU.UTF-8";
 
   services.xserver = {
