@@ -41,7 +41,7 @@ in
 
   users.mutableUsers = false;
   users.users.root.hashedPassword = "!";
-  users.users.will = {
+  users.users.student = {
     isNormalUser = true;
     extraGroups = [ "wheel" ];
     passwordFile = "/etc/passwordFile-will";
