@@ -5,7 +5,7 @@ This is my personal Nix config. You are encouraged to copy from it, but it's not
 From the NixOS live CD:
 
 ```sh
-sudo nix-shell https://github.com/willmcpherson2/willos/archive/main.tar.gz
+sudo nix-shell https://github.com/emptysevenfive/Thinkpad-Nixos/archive/main.tar.gz
 ```
 
 Rebuild:
