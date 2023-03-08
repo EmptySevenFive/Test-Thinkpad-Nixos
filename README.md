@@ -5,7 +5,7 @@ This is my personal Nix config. You are encouraged to copy from it, but it's not
 From the NixOS live CD:
 
 ```sh
-sudo nix-shell https://github.com/emptysevenfive/Thinkpad-Nixos/archive/main.tar.gz
+sudo nix-shell https://github.com/emptysevenfive/Test-Thinkpad-Nixos/archive/main.tar.gz
 ```
 
 Rebuild:
@@ -23,3 +23,5 @@ The overlay provides `emacsWithPackagesFromUsePackage`, which reads my [emacs.el
 Read more about it [here](https://github.com/nix-community/emacs-overlay#extra-library-functionality)
 
 [1] I haven't tested this yet...
+[2] edits made now work and system will boot to Gnome desktop, i dont use Home-manager or emacs extensions so haven't check this functionality.
+
